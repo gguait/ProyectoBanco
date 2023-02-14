@@ -1,7 +1,7 @@
 # ProyectoBanco
 Crear un programa que nos permita la gestión de las cuentas de clientes
 
- Se ofertará un menú de altas, bajas, consultas y modificaciones
+Se ofertará un menú de altas, bajas, consultas y modificaciones
 similar a
 
   ======= BANCO UNIVERSAL ========
@@ -14,7 +14,7 @@ similar a
   Selecciona una opción:
   
   
- Una cuenta de cliente podría definirse a partir de la clase Ccuenta
+Una cuenta de cliente podría definirse a partir de la clase Ccuenta
 
 Atributos private:
   nombre String
@@ -23,14 +23,14 @@ Atributos private:
   tipoDeInteres Double
 
 Métodos public:
-  Constructor con y sin parámetros
-  Setters y getters para todos los atributos
-    Se debe impedir tipoDeInteres menor que cero
-    Se debe impedir que la cuenta y el nombre estén vacios
-    Se debe impedir que el ingreso sea una cantidad negativa
+✔️Constructor con y sin parámetros
+✔️Setters y getters para todos los atributos
+  ✔️Se debe impedir tipoDeInteres menor que cero
+  ✔️Se debe impedir que la cuenta y el nombre estén vacios
+  ✔️Se debe impedir que el ingreso sea una cantidad negativa
     
-  void reintegro (double cantidad) //restará cantidad al saldo
-    Se debe impedir que el reintegro sea superior al saldo
+✔️void reintegro (double cantidad) //restará cantidad al saldo
+  ✔️Se debe impedir que el reintegro sea superior al saldo
 
 En una primera versión para almacenar en memoria los clientes construiremos un array de Ccuenta
 (En una segunda versión para almacenar en memoria los clientes construiremos una lista de Ccuenta)
@@ -38,42 +38,42 @@ En una primera versión para almacenar en memoria los clientes construiremos un 
 Podría definirse la clase Cuentas similar a
 
   Atributos private:
-  un array de Ccuenta
-  total int
+ ✔️un array de Ccuenta
+ ✔️total int
 
   Métodos public:
 
-  Ccuenta buscarCuenta(void)
+✔️Ccuenta buscarCuenta(void)
   'Pregunta cuenta, la localiza y la devuelve.
   'Puede ofrecer la opción de buscar por nombre o por número usando los métodos poscuentanombre y poscuenta
  
-  Ccuenta poscuentanombre(String nombre )
+✔️Ccuenta poscuentanombre(String nombre )
   'Busca una cuenta por nombre de cliente.
   'Null si no la encuentra
  
-  Ccuenta poscuenta(String numcta )
+✔️Ccuenta poscuenta(String numcta )
   'Devuelve una cuenta buscándola por número.
   'Null si no la encuentra
 
-  int NuevaCuenta(void)
+✔️int NuevaCuenta(void)
    'Añade una nueva cuenta a la lista.
    'Comprueba que el número de cuenta no esté duplicado
    'Devuelve la posición de la cuenta
 
-  void ModificarCuenta(void)
+✔️void ModificarCuenta(void)
    'Pregunta cuenta y la modifica
 
-  void AnularCuenta(void)
+✔️void AnularCuenta(void)
    'Pregunta cuenta y la borra de la lista.
    'Comprueba que el saldo es igual a cero
  
-  void ConsultarCuenta(void )
+✔️void ConsultarCuenta(void )
    'Pregunta cuenta y la muestra
 
-  vercuenta( Ccuenta cta )
+✔️vercuenta( Ccuenta cta )
    'Muestra la cuenta pasada como parámetro
 
-  Void VisualizarCuentas(void)
+✔️Void VisualizarCuentas(void)
   'Muestra la lista de cuentas
  
  Se debe mantener la revisión y el control de los datos introducidos por el usuario evitando el mal funcionamiento o finalización del programa por errores de ejecución
