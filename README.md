@@ -3,6 +3,7 @@ Crear un programa que nos permita la gestión de las cuentas de clientes
 
  Se ofertará un menú de altas, bajas, consultas y modificaciones
 similar a
+
   ======= BANCO UNIVERSAL ========
   1. Alta de cuentas
   2. Consulta de una cuenta
