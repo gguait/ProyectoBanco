@@ -155,7 +155,7 @@ public class MetodosBanco {
         int posicion = cuentas.indexOf(buscarCuenta());
 
 //        Cambiar nombre
-        System.out.println("Introduce el nuevo Nombre (0 si quiere mantener el nombre actual) ");
+        System.out.println("Introduce el nuevo Nombre (0 si quiere mantener el nombre actual)");
         try {
             String nuevoNombre = teclado.nextLine();
             if (nuevoNombre == null) {
