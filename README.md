@@ -63,7 +63,7 @@ Podría definirse la clase Cuentas similar a
 void ModificarCuenta(void)
    'Pregunta cuenta y la modifica
 
-✔️void AnularCuenta(void)
+void AnularCuenta(void)
    'Pregunta cuenta y la borra de la lista.
    'Comprueba que el saldo es igual a cero
  
