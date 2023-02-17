@@ -26,7 +26,7 @@ Métodos public:
 ✔️Constructor con y sin parámetros
 ✔️Setters y getters para todos los atributos
   ✔️Se debe impedir tipoDeInteres menor que cero
-  ✔️Se debe impedir que la cuenta y el nombre estén vacios
+  Se debe impedir que la cuenta y el nombre estén vacios
   ✔️Se debe impedir que el ingreso sea una cantidad negativa
     
 ✔️void reintegro (double cantidad) //restará cantidad al saldo
