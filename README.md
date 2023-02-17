@@ -16,7 +16,7 @@ similar a
   
 Una cuenta de cliente podría definirse a partir de la clase Ccuenta
 
-Atributos private:
+✔️Atributos private:
   nombre String
   cuenta String
   saldo Double
@@ -26,7 +26,7 @@ Métodos public:
 ✔️Constructor con y sin parámetros
 ✔️Setters y getters para todos los atributos
   ✔️Se debe impedir tipoDeInteres menor que cero
-  ✔️Se debe impedir que la cuenta y el nombre estén vacios
+  Se debe impedir que la cuenta y el nombre estén vacios
   ✔️Se debe impedir que el ingreso sea una cantidad negativa
     
 ✔️void reintegro (double cantidad) //restará cantidad al saldo
@@ -60,7 +60,7 @@ Podría definirse la clase Cuentas similar a
    'Comprueba que el número de cuenta no esté duplicado
    'Devuelve la posición de la cuenta
 
-void ModificarCuenta(void)
+✔️void ModificarCuenta(void)
    'Pregunta cuenta y la modifica
 
 ✔️void AnularCuenta(void)
