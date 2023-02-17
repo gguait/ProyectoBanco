@@ -16,7 +16,7 @@ similar a
   
 Una cuenta de cliente podría definirse a partir de la clase Ccuenta
 
-Atributos private:
+✔️Atributos private:
   nombre String
   cuenta String
   saldo Double
