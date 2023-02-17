@@ -60,10 +60,10 @@ Podría definirse la clase Cuentas similar a
    'Comprueba que el número de cuenta no esté duplicado
    'Devuelve la posición de la cuenta
 
-void ModificarCuenta(void)
+✔️void ModificarCuenta(void)
    'Pregunta cuenta y la modifica
 
-void AnularCuenta(void)
+✔️void AnularCuenta(void)
    'Pregunta cuenta y la borra de la lista.
    'Comprueba que el saldo es igual a cero
  
